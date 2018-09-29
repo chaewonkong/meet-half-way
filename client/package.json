@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Chaewon Kong, Sunghwan Park",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "d3-tube-map": "^0.6.0"
+  }
 }
