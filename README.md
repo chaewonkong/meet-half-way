@@ -10,7 +10,7 @@
 
 <hr>
 
-## api
+## Data
 ### Data get
 
 서울 지하철 노선도에 필요한 호선은  
@@ -61,6 +61,7 @@
       "label": "Town",
       "color": "#FFD600",
       "shiftCoords": [0, 0],
+      "distanceFromPrevious": 120",
       "nodes": [
         {
           "coords": [14, -4],
@@ -130,4 +131,9 @@
 ### Data parse
 
 
+<hr>
+<br>
+<br>
+
+## Api
 ### half-way
