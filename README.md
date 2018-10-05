@@ -59,7 +59,7 @@
       "label": "Town",
       "color": "#FFD600",
       "shiftCoords": [0, 0],
-      "distanceFromPrevious": 120",
+      "distanceFromPrevious": 120,
       "nodes": [
         {
           "coords": [14, -4],
@@ -164,6 +164,12 @@
 * 대한민국 지하철 역사 정보 : https://www.data.go.kr/dataset/15013205/standard.do
 * 서울 지하철 1-8호선 역 정보, 환승 시 시간정보 : https://www.data.go.kr/dataset/15003842/fileData.do
 
+##### API
+
+**API 정보들은 인증키의 유효기간이 3개월이다.** 이후에 갱신해야 하는 듯
+* 서울시 역외부코드로 지하철역 위치 조회 ★★★★★ : http://data.seoul.go.kr/dataList/datasetView.do?infId=OA-117&srvType=A&serviceKind=1&currentPageNo=1
+* 서울시 지하철 호선별 역사경유 정보 : http://data.seoul.go.kr/dataList/datasetView.do?infId=OA-12761&infSeq=1&srvType=A#
+
 <br>
 
 #### Data preprocess
@@ -173,10 +179,18 @@
 
 <br>
 
-##### 역들의 정보를 `stations`로 저장하기
+##### 1. 역들의 정보를 `stations`로 저장하기
+
+역들의 정보는 호선 정보 없이 모두 하나에 저장할 수 있다. 그 키값을 'stations'로 할 것.
 
 
-##### 호선 정보를 `lines`로 저장하기
+```python
+
+
+```
+
+
+##### 2. 호선 정보를 `lines`로 저장하기
 
 
 
