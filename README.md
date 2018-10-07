@@ -131,3 +131,7 @@
 
 
 ### half-way
+
+### 10/07 회의 내용
+성환: 위도 경도 채워오기
+채원: shiftcoords, distanceFromPrevious 의미 파악해오기
