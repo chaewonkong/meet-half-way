@@ -205,6 +205,11 @@
 ### Data parse
 
 
+
+### half-way
+
+### half-way
+
 <hr>
 <br>
 <br>
@@ -225,3 +230,8 @@
 ### 위치 정규화
 
 ### half-way(그래프 알고리즘)
+
+### 10/07 회의 내용
+성환: 위도 경도 채워오기
+채원: shiftcoords, distanceFromPrevious 의미 파악해오기
+
